@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="script/histograma.js"></script>
+       <script type="text/javascript" src="script/bubble.js"></script>
+           <script type="text/javascript" src="script/tabel.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+     <h2>Time Series</h2>
+    <canvas id="canvas" width="1000px " height="430px" margin-top= "20px"></canvas>
+
+
+<div class="date">
+    <fieldset>
+        <legend>Histogram </legend>
+        <div id="selectDiv">
+            <label for="selectCountry">Tara: </label>
+            <select id="selectCountry">
+                  <option value="Romania">Romania</option>
+                  <option value="Italy">Italy</option>
+                  <option value="United_Kingdom">United Kingdom</option>
+                </select>
+        </div>
+        <div id="inputs">
+            <label for="">Choose: </label> <br/>
+            <input type="radio" name="charac" value="gas" checked="true">Natural Gas Production<br>
+            <input type="radio" name="charac" value="nuclear">Nuclear production<br>
+            <input type="radio" name="charac" value="energy">Energy production
+        </div>
+        <button id="btnHistograma">OK</button>
+    </fieldset>
+</div>
+
+<div class="date">
+    <fieldset>
+        <legend>Bubble Chart</legend>
+      
+        <div id="inputs">
+            <label for="">Write year between 1979 and 2008: </label> <br/>
+            <input type="text" name="year" id="year" value="1979"><br>
+           
+        </div>
+        <button id="btnBubbleChart">OK</button>
+        <button id="anim">View Animation</button>
+    </fieldset>
+</div>
+
+
+<div class="date">
+    <fieldset>
+        <legend>Tabel data</legend>
+    
+        <div id="inputs">
+            <label for="">Write year between 1979 and 2008:</label> <br/>
+            <input type="text" name="year" id="yearTable" value="1979"><br>
+           
+        </div>
+        
+        <button id="tableBtn">View table</button>
+    </fieldset>
+</div>
+
+
+<table id="table"></table>
+
+
+
+</body>
+
+</html>
+
+
+
+
+

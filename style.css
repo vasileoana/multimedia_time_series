@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Tahoma', sans-serif;
+    background-color: #EEEEEE;
+}
+
+h2 {
+    background-color: #ffff99;
+    font-style: italic;
+    padding: 6px;
+    text-align: center;
+    color: black;
+    margin: 0px;
+}
+
+.date {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#selectDiv {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+button {
+    text-align: center;
+    margin-left: 10px;
+    padding: 2px 30px 2px 30px;
+    background-color: #2277FF;
+    font-weight: bold;
+}
+
+#canvas {
+    margin-top: 20px;
+    margin-left: 30px;
+    float: left;
+    border: 1px solid black;
+}
+
+table {
+    clear: both;
+    border: 1px solid Gray;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 40px;
+}
+
+td,th
+{
+    padding: 8px 12px;
+    border-bottom:   1px solid Gray;
+}
+
+
+
+th
+{
+	background-color: #AAAAAA;
+}
+
+
+caption
+{
+	padding: 8px 12px;
+	border: 1px solid Gray;
+	border-bottom: none;
+	background-color: #E0E0E0;
+	
+	font-weight: bold;
+}
